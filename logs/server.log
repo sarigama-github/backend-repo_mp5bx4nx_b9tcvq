@@ -1,0 +1,30 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [151] using StatReload
+INFO:     Started server process [153]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:33402 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33408 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:33402 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33402 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33402 - "POST /api/products/seed HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33410 - "POST /api/products/seed HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33402 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33402 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33410 - "GET /api/cart?session_id=87b100e2-2110-4939-a881-4b227ba0b76c HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33410 - "GET /api/cart?session_id=87b100e2-2110-4939-a881-4b227ba0b76c HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33416 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33416 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33416 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33416 - "GET /api/products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:43100 - "GET /api/cart?session_id=87b100e2-2110-4939-a881-4b227ba0b76c HTTP/1.1" 200 OK
+INFO:     172.20.0.1:43100 - "GET /api/cart?session_id=87b100e2-2110-4939-a881-4b227ba0b76c HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36710 - "GET /api/products?q=The+derma+co+15%25+serum HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36710 - "GET /api/products?q=The+derma+co+15%25+serum HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36710 - "GET /api/products?q=The+derma+co+15%25+serum HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36718 - "GET /api/products?q=The+derma+co+15%25+serum HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36718 - "GET /api/products?q=The+derma+co+15%25+serum HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36718 - "GET /api/products?q=The+derma+co+15%25+serum HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59452 - "GET /api/products?q=Derma+serum HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59452 - "GET /api/products?q=Derma+serum HTTP/1.1" 200 OK
